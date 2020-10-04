@@ -77,3 +77,11 @@ p {
 /* border: 0.3px solid #edfffe;
   border-radius: 5px;
 /* } */
+/* showcase */
+#showcase {
+  background-image: url(./IMG/showcase.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 700px;
+}
