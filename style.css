@@ -75,6 +75,15 @@ p {
 .clr {
   clear: both;
 }
+.py-1 {
+  padding: 10px 0;
+}
+.py-2 {
+  padding: 15px 0;
+}
+.py-3 {
+  padding: 20px 0;
+}
 
 /* navbar */
 
@@ -90,7 +99,7 @@ p {
 #navbar .logo {
   /* margin-top: 10px; */
   float: left;
-  padding: 18px;
+  padding: 17px;
   border: 2px solid #fff;
   border-radius: 15px;
   /* background-color: #000000; */
@@ -181,4 +190,55 @@ p {
   text-align: center;
   color: #f4f4f4;
   padding: 20px;
+}
+
+/* About */
+/* section info */
+
+.info-left {
+  float: left;
+  width: 50%;
+  /* border: 2px solid green; */
+  min-height: 100%;
+}
+.info-right {
+  float: right;
+  min-height: 100%;
+  width: 50%;
+}
+.info-right img {
+  display: block;
+  margin: auto;
+  width: 70%;
+  border-radius: 50%;
+}
+.info-left h1 {
+  /* text-align: center; */
+  font-size: 40px;
+  margin-top: 10px;
+}
+
+#testamonials {
+  height: 600px;
+  background: url("./IMG/test-bg.jpg") no-repeat center center/cover;
+  padding-top: 100px;
+}
+#testamonials .testamonial img {
+  width: 100px;
+  display: block;
+  float: left;
+  margin-right: 15px;
+  border-radius: 50%;
+}
+#testamonials .testamonial {
+  padding: 20px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  opacity: 0.7;
+}
+#testamonials h3 {
+  font-size: 40px;
+  text-align: center;
+  margin: 10px 0;
+  color: #f4f4f4;
 }
