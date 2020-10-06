@@ -44,7 +44,7 @@ p {
   font-size: 18px;
   color: #fff;
   background: #333;
-  padding: 13px 16px;
+  padding: 13px 20px;
   border-radius: 5px;
   cursor: pointer;
 }
@@ -186,7 +186,7 @@ p {
 }
 /* footer */
 #main-footer {
-  background-color: #333;
+  background-color: #555;
   text-align: center;
   color: #f4f4f4;
   padding: 20px;
@@ -241,4 +241,35 @@ p {
   text-align: center;
   margin: 10px 0;
   color: #f4f4f4;
+}
+/* contact page */
+#form {
+  padding: 25px 0;
+}
+#form h1 {
+  font-size: 40px;
+}
+#form label {
+  display: block;
+  margin-top: 15px;
+}
+#form input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: solid 1px #ccc;
+}
+#form textarea {
+  margin: 5px 0;
+  display: block;
+  width: 100%;
+  border: solid 1px #ccc;
+  border-radius: 5px;
+}
+#form button {
+  margin-top: 15px;
+}
+.container .box {
+  height: 300px;
 }
