@@ -1,0 +1,50 @@
+#showcase {
+  height: 550px;
+}
+#navbar .logo {
+  float: none;
+  text-align: center;
+  /* width: 20%;
+  margin: auto; */
+  padding: none;
+  border: none;
+  border-radius: none;
+}
+#navbar ul,
+#navbar ul li {
+  float: none;
+  text-align: center;
+}
+#navbar ul li a {
+  padding: 5px;
+}
+#navbar ul li a.current {
+  width: 50%;
+  margin: auto;
+}
+/* home info */
+
+#home-info {
+  height: 340px;
+}
+#home-info #info-img {
+  background: none;
+  float: left;
+  width: 0;
+}
+#home-info #info-content {
+  float: right;
+  width: 100%;
+  text-align: center;
+  padding: 40px 30px;
+  overflow: hidden;
+}
+
+/* box */
+.box {
+  float: none;
+  width: 100%;
+  height: 250px;
+  text-align: center;
+  padding: 40px;
+}
